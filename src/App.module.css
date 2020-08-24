@@ -1,0 +1,375 @@
+@media (min-width: 0px) and (max-width: 700px) {
+    .container {
+        background: url(img/Background.png);
+        background-position: center center;      
+        background-repeat: no-repeat;     
+        background-attachment: fixed; 
+        background-size: cover;     
+        position: relative;
+        height: 1650px;
+    }
+    .Info_Container {
+        position: relative;
+        top: 60px;
+    }
+    .wrapper {
+        text-align: center;
+        width: 100vw;
+        height: 500px;
+        position: relative;
+        margin-top: 50px;
+    }
+    .Product_Container_Wrapper {
+        height: 100%;
+        width: 280px;
+        position: relative;
+        margin: 0 auto;
+    }
+    .stick {
+        position: absolute;
+        top: -14px;
+        left: 19px;
+        height: 78px;
+        width: 5px;
+        background-color: #1698d9;
+        transform: rotate(43deg);
+    }
+    .Title_Heading {
+        position: relative;
+        margin: 0 auto;
+        line-height: 1em;
+        color: white;
+        font-size: 36px;
+        font-weight: 100;
+    }
+    .SelectedFooter{
+        color: white;
+        font-size: 11px;
+        font-family: 'Lato', sans-serif;
+    }
+    .footer {
+        color: white;
+        font-size: 11px;
+        font-family: 'Lato', sans-serif;
+    
+    }
+    
+    
+}
+
+@media (min-width: 700px) and (max-width: 1300px) {
+    .Info_Container {
+        position: relative;
+        top: 60px;
+    }
+    .container {
+        background: url(img/Background.png) center center fixed;
+        background-size: cover;
+        background-repeat: repeat;
+        height: 1200px;
+        position: relative;
+    }
+    .wrapper {
+        width: 700px;
+        height: 520px;
+        position: relative;
+        margin: 0 auto;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .Product_Container_Wrapper {
+        display: inline-block;
+        height: 100%;
+        width: 300px;
+        margin-right: 50px;
+        position: relative;
+
+    }
+
+    .stick {
+        position: absolute;
+        top: -14px;
+        left: 22px;
+        height: 78px;
+        width: 5px;
+        background-color: #1698d9;
+        transform: rotate(44deg);
+    }
+    .Title_Heading {
+        position: relative;
+        margin: 0 auto;
+        line-height: 0.5em;
+        color: white;
+        font-size: 36px;
+        font-weight: 100;
+    }
+    .SelectedFooter{
+        color: white;
+        font-size: 12px;
+        font-family: 'Lato', sans-serif;
+    }
+    .footer {
+        color: white;
+        font-size: 12px;
+        font-family: 'Lato', sans-serif;
+    
+    }
+    
+    
+}
+
+@media (min-width: 1300px) {
+    .Info_Container {
+    position: relative;
+    top: 60px;
+}
+    .container {
+        background: url(img/Background.png) center center fixed;
+        background-size: 100vw 100vh;
+        background-repeat: repeat;
+        height: 100vh; 
+        position: relative;
+    }
+
+     .wrapper {
+         text-align: center;
+        width: 1200px;
+        height: 520px;
+        position: relative;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .Product_Container_Wrapper {
+        display: inline-block;
+        height: 100%;
+        width: 320px;
+        position: relative;
+        margin-right: 80px;
+    }
+    .stick {
+        position: absolute;
+        top: -14px;
+        left: 24px;
+        height: 78px;
+        width: 5px;
+        background-color: #1698d9;
+        transform: rotate(46deg);
+    }
+    .Title_Heading {
+        position: relative;
+        margin: 0 auto;
+        line-height: 0.5em;
+        color: white;
+        font-size: 36px;
+        font-weight: 100;
+    }
+    .SelectedFooter{
+        color: white;
+        font-size: 13px;
+        font-family: 'Lato', sans-serif;
+    }
+    .footer {
+        color: white;
+        font-size: 13px;
+        font-family: 'Lato', sans-serif;
+    
+    }
+    
+
+  
+}
+.Title_Heading_Container {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.Product_Container {
+    
+    position: relative;
+    cursor: pointer;
+    height: 90%;
+    width: 100%;
+    background-color: white;
+    clip-path: polygon(18% 0, 100% 0%, 100% 100%, 0 100%, 0 12%);
+}
+
+
+
+
+.Disable {
+
+    background-color: #b3b3b3;
+    opacity: 0.9;
+}
+
+.Default {
+
+    background-color: #1698d9;
+}
+
+.DefaultHover {
+    background-color: #2ea8e6;
+}
+
+.Selected {
+    background-color: #d91667;
+}
+
+.SelectedHover {
+    background-color: #e52e7a;
+}
+
+.Disable_Border {
+    border-radius: 10px;
+    border: 5px solid #b3b3b3;
+    opacity: 0.9;
+}
+
+.Default_Border {
+    border-radius: 10px;
+    border: 5px solid #1698d9;
+}
+
+.DefaultHover_Border {
+    border-radius: 10px;
+    border: 5px solid #2ea8e6;
+}
+
+.Selected_Border {
+    border-radius: 10px;
+    border: 5px solid #d91667;
+}
+
+.SelectedHover_Border {
+    border-radius: 10px;
+    border: 5px solid #e52e7a;
+}
+
+img {
+    height: 270px;
+    position: absolute;
+    bottom: 0.1px;
+    left:0.1px;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.Content_Container {
+    width: 220px;
+    height: 160px;
+    position: absolute;
+    left: 50px;
+    top: 25px;
+}
+
+.First_Title_Select_Hover {
+    position: absolute;
+    left:1px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #e62e7a;
+}
+
+.First_Title_Default {
+    left:1px;
+    position: absolute;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #666666;
+}
+
+.Heading {
+    position: absolute;
+    line-height: 0.5em;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+.Product_Taste {
+    position: absolute;
+    top:2.7em;
+    font-family: 'Lato', sans-serif;
+    line-height: 0.1em;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul {
+    position: absolute;
+    top: 5.5em;
+    margin-left: 0;
+    padding-left: 0;
+    line-height: 17px;
+}
+
+li {
+    float: left;
+    font-family: 'Lato';
+    color: #666666;
+    list-style-type: none;
+    font-size: 14px;
+}
+.ProductsAmount{
+    font-weight: bold;
+}
+.weight{
+    font-weight: bold;
+}
+@media (min-width: 700px) {
+    .Weight_Container {
+        z-index: 2;
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        top: 22em;
+        left: 13em;
+    }
+    
+    .Weight_Amount {
+        margin-top: 14px;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        line-height: 0.8;
+    }    
+}
+@media (min-width: 0px)and (max-width: 700px) {
+    .Weight_Container {
+            z-index: 2;
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            top: 22em;
+            left: 13em;
+        }
+        
+        .Weight_Amount {
+            margin-top: 10px;
+            text-align: center;
+            color: white;
+            font-size: 25px;
+            line-height: 0.8;
+        }
+        
+    }
+
+
+.Footer_Container {
+    position: relative;
+    text-align: center;
+    top: 5px;
+    width: 100%;
+    height: 20px;
+}
+
+.Ref_Buy {
+    color: #1698d9;
+    text-decoration: none;
+    border-bottom: 1px dashed #1698d9;
+}
