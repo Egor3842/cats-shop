@@ -53,8 +53,18 @@
         font-family: 'Lato', sans-serif;
     
     }
-    
-    
+}
+@media (max-width:300px){
+  .container {
+    background: url(img/Background.png);
+    background-position: center center;      
+    background-repeat: no-repeat;     
+    background-attachment: fixed; 
+    background-size: cover;     
+    position: relative;
+    height: 1650px;
+    width: 300px;
+}
 }
 
 @media (min-width: 700px) and (max-width: 1300px) {
