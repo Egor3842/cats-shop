@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import s from './App.module.css';
 import catImg from './img/catOnly.png'
 
